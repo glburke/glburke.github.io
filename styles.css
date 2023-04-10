@@ -1,3 +1,49 @@
-.coral {
-    color: lightcoral;
+body {
+    background-color: rgb(137, 5, 199);
+    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(137, 5, 199, 0.8)), to(#ffc8dc));
+    background-image: linear-gradient(to bottom right, rgba(137, 5, 199, 0.8), #ffc8dc);
+    color: whitesmoke;
+    font-size: 16px;
+    font-family: "Raleway", sans-serif;
+}
+
+h1 {
+    color: #ffc8dc;
+    font-family: "Merriweather Sans", sans-serif;
+}
+  
+p {
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: #ffc8dc;
+    font-weight: 500;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+a:hover, a:focus, a:active {
+    color: lemonchiffon;
+}
+
+.btn {
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.btn-primary {
+    background-color: #ffc8dc;
+    border-color: #ffc8dc;
+    color: rgb(137, 5, 199);
+    width: 200px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+    background-color: rgb(137, 5, 199);
+    border-color: rgb(137, 5, 199);
+    color: #ffc8dc;
 }
